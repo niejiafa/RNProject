@@ -1,0 +1,11 @@
+{
+  "dependencies" : {
+    "react" : "15.2.0",
+    "react-native" : "^0.29.0"
+  },
+  "private" : true,
+  "scripts" : {
+    "start" : "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "version" : "0.0.1"
+}
