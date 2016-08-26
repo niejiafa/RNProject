@@ -3,11 +3,16 @@
  */
 
 import React, { Component } from 'react';
-import { StyleSheet , View ,AppRegistry ,Text ,Animated, Easing, Image} from 'react-native';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
-import DemoOne from './src/DemoOne'
+import { AppRegistry } from 'react-native';
+
+//import reducer from './src/DemoRedux/reducers'
+//import DemoRedux from './src/DemoRedux/containers/main'
+
+import reducer from './src/DemeSecond/reducers'
+import DemeSecond from './src/DemeSecond/containers/main'
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 const store = createStoreWithMiddleware(reducer);
@@ -15,18 +20,11 @@ const store = createStoreWithMiddleware(reducer);
 export default class Demo extends Component {
     render() {
         return (
-                <Provider store={store}>
-                <DemoOne />
-                </Provider>
-                );
+            <Provider store={store}>
+                <DemeSecond />
+            </Provider>
+        );
     }
 }
 
-const styles = StyleSheet.create({
-                                 container: {
-                                 backgroundColor:'gray',
-                                 flex:1
-                                 }
-                                 });
-
-AppRegistry.registerComponent('RNModuleName',()=> Demo);
+AppRegistry.registerComponent('RNModuleName', ()=> Demo);
