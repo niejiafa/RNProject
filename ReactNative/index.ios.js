@@ -11,8 +11,8 @@ import { AppRegistry } from 'react-native';
 //import reducer from './src/DemoRedux/reducers'
 //import DemoRedux from './src/DemoRedux/containers/main'
 
-import reducer from './src/DemeSecond/reducers'
-import DemeSecond from './src/DemeSecond/containers/main'
+import reducer from './src/DemoListView/reducers'
+import DemeList from './src/DemoListView/containers/main'
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 const store = createStoreWithMiddleware(reducer);
@@ -21,7 +21,7 @@ export default class Demo extends Component {
     render() {
         return (
             <Provider store={store}>
-                <DemeSecond />
+                <DemeList />
             </Provider>
         );
     }

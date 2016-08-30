@@ -5,7 +5,7 @@
 import { combineReducers } from 'redux';
 
 const data = {
-    data: {}
+    data: []
 }
 
 export function Reducer(state = data, action) {
