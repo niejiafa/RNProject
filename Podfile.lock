@@ -1,10 +1,10 @@
 PODS:
-  - React/Core (0.29.2)
-  - React/RCTNetwork (0.29.2):
+  - React/Core (0.30.0)
+  - React/RCTNetwork (0.30.0):
     - React/Core
-  - React/RCTText (0.29.2):
+  - React/RCTText (0.30.0):
     - React/Core
-  - React/RCTWebSocket (0.29.2):
+  - React/RCTWebSocket (0.30.0):
     - React/Core
 
 DEPENDENCIES:
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: ./ReactNative/node_modules/react-native
 
 SPEC CHECKSUMS:
-  React: 3da805a4fcb127434843924494de838e9658ca78
+  React: ed499ad8bb72560821a80fefa59e15a18f3ec75c
 
 PODFILE CHECKSUM: 928d3e52b15917c4a9d304bae15aff268d65345f
 
