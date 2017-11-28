@@ -1,7 +1,7 @@
 # Native 集成 RN项目
 备注：
-1:进入工程目录，执行pod install 
-2:由于 node_modules 比较大，上传项目将其删除掉了，需要手动 install，进入ReactNative文件夹，命令行输入npm install 安装完成后，项目即可运行起来。项目地址：https://github.com/indexjincieryi/RNProject
+1:由于 node_modules 比较大，上传项目将其删除掉了，需要手动 install，进入ReactNative文件夹，命令行输入npm install 
+2:进入工程目录，执行pod install,安装完成后，项目即可运行起来。项目地址：https://github.com/indexjincieryi/RNProject
 ## 1：新建iOS 项目
 ## 2：创建一个文件夹存放 js代码，比如ReactNative
 ## 3：命令行进入ReactNative，创建package.json 文件，然后进行：npm install(由于网路原因，经常性装不全依赖库，多装几次）
